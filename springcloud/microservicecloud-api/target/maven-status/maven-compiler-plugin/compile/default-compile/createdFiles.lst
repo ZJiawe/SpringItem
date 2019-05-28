@@ -1,0 +1,5 @@
+App.class
+cn\com\mrzheng\entity\Dept.class
+cn\com\mrzheng\service\DeptClientService.class
+cn\com\mrzheng\service\DeptClientServiceFallbackFactory$1.class
+cn\com\mrzheng\service\DeptClientServiceFallbackFactory.class
