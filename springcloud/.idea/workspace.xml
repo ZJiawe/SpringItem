@@ -4,68 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e159668-4afb-4121-84d5-d9d8a08f4a19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/test/java/cn/com/mrzheng/app/SpringBoot03LoggingApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/cloud/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/cloud/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/entity/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/cloud/entity/Dept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/service/DeptClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/cloud/service/DeptClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/service/DeptClientServiceFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/cloud/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/cn/com/mrzheng/web/Config_3344_StartSpringCloudApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/cn/com/mrzheng/cloud/Config_3344_StartSpringCloudApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/cn/com/mrzheng/web/ConfigClient_3355_StartSpringCloudApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/cn/com/mrzheng/cloud/ConfigClient_3355_StartSpringCloudApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/cn/com/mrzheng/web/rest/ConfigClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/cn/com/mrzheng/cloud/rest/ConfigClientRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/web/DeptProvider8001_Config_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/cloud/DeptProvider8001_Config_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/web/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/cloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/web/dao/DeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/cloud/dao/DeptDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/web/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/cloud/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/web/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/resources/mybatis/mapper/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/resources/mybatis/mapper/DeptDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-eureka-7001/src/main/java/cn/com/mrzheng/web/Config_Git_EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-eureka-7001/src/main/java/cn/com/mrzheng/cloud/Config_Git_EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/murule/MySelfRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/cloud/murule/MySelfRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/murule/RandomRule_ZJW.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/cloud/murule/RandomRule_ZJW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/springcloud/DeptConsumer80_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/cloud/springcloud/DeptConsumer80_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/springcloud/cfgbeans/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/cloud/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/springcloud/controller/DeptController_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/cn/com/mrzheng/cloud/springcloud/controller/DeptController_Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/cn/com/mrzheng/springcloud/DeptConsumer80_Feign_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/cn/com/mrzheng/cloud/springcloud/DeptConsumer80_Feign_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/cn/com/mrzheng/springcloud/cfgbeans/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/cn/com/mrzheng/cloud/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/cn/com/mrzheng/springcloud/controller/DeptController_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/cn/com/mrzheng/cloud/springcloud/controller/DeptController_Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java/cn/com/mrzheng/web/DeptConsumer_DashBoard_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java/cn/com/mrzheng/cloud/DeptConsumer_DashBoard_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/java/cn/com/mrzheng/web/EurekaServer7001_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/java/cn/com/mrzheng/cloud/EurekaServer7001_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7002/src/main/java/cn/com/mrzheng/web/EurekaServer7002_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7002/src/main/java/cn/com/mrzheng/cloud/EurekaServer7002_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7003/src/main/java/cn/com/mrzheng/web/EurekaServer7003_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7003/src/main/java/cn/com/mrzheng/cloud/EurekaServer7003_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/web/DeptProvider8001_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/cloud/DeptProvider8001_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/web/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/cloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/web/dao/DeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/cloud/dao/DeptDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/web/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/cloud/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/web/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/web/DeptProvider8002_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/cloud/DeptProvider8002_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/web/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/cloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/web/dao/DeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/cloud/dao/DeptDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/web/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/cloud/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/web/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/web/DeptProvider8003_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/cloud/DeptProvider8003_App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/web/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/cn/com/mrzheng/cloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/web/dao/DeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/cloud/dao/DeptDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/web/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/cloud/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/cn/com/mrzheng/web/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/cn/com/mrzheng/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/web/DeptProvider_hystrix_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/cloud/DeptProvider_hystrix_8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/web/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/cloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/web/dao/DeptDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/web/service/DeptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/com/mrzheng/web/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/java/cn/com/mrzheng/web/Zuul_9527_StartSpringCloudApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/java/cn/com/mrzheng/cloud/Zuul_9527_StartSpringCloudApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e159668-4afb-4121-84d5-d9d8a08f4a19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-api/target/" />
@@ -109,35 +48,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/test/java/cn/com/mrzheng/app/SpringBoot03LoggingApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/logback-spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -236,8 +147,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="168" />
+    <option name="x" value="-553" />
+    <option name="y" value="322" />
     <option name="width" value="1844" />
     <option name="height" value="833" />
   </component>
@@ -273,21 +184,6 @@
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,50 +193,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-config-3344" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-config-3344" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-config-3344" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-config-3344" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-config-3344" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,7 +212,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559109982892" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559196779752" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/cn/com/mrzheng" />
     <property name="last_opened_file_path" value="G:/19.尚硅谷/52 尚硅谷SpringBoot视频/源码、资料、课件/代码/spring-boot-04-web-restfulcrud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -523,7 +375,7 @@
       <workItem from="1559095125126" duration="594000" />
       <workItem from="1559103652012" duration="6010000" />
       <workItem from="1559135732160" duration="671000" />
-      <workItem from="1559179014868" duration="667000" />
+      <workItem from="1559179014868" duration="2351000" />
     </task>
     <servers />
   </component>
@@ -560,13 +412,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77503000" />
+    <option name="totallyTimeSpent" value="79187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="142" width="1844" height="913" extended-state="1" />
-    <editor active="true" />
+    <frame x="-553" y="322" width="1844" height="833" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24439462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24439462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -917,16 +768,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/cn/com/mrzheng/cloud/log/Logger.java" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/test/java/cn/com/mrzheng/app/SpringBoot03LoggingApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
+        <state relative-caret-position="608">
           <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
         </state>
       </provider>
@@ -935,6 +779,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/test/java/cn/com/mrzheng/app/SpringBoot03LoggingApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>
