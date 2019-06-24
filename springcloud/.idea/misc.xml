@@ -12,6 +12,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/microservicecloud-config-eureka-client-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-redis-8004/pom.xml" />
       </set>
     </option>
   </component>

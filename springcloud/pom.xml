@@ -133,6 +133,7 @@
     <module>microservicecloud-config-client-3355</module>
     <module>microservicecloud-config-dept-client-8001</module>
     <module>microservicecloud-config-eureka-7001</module>
+    <module>microservicecloud-provider-dept-redis-8004</module>
   </modules>
 
 </project>

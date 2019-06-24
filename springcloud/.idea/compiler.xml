@@ -21,11 +21,16 @@
         <module name="microservicecloud-provider-dept-8002" />
         <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloud-provider-dept-hystrix-8001" />
+        <module name="microservicecloud-provider-dept-redis-8004" />
+        <module name="microservicecloud-provider-redis-8004" />
+        <module name="microservicecloud-redis-client" />
         <module name="microservicecloud-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservicecloud-config-eureka-client-7001" target="1.7" />
+      <module name="microservicecloud-provider-redis-8004" target="1.7" />
+      <module name="microservicecloud-redis-client" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
